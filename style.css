@@ -3,16 +3,16 @@
   margin: 0;
   padding: 0;
 }
+
  
 .menu li{
   float: left;
-  position: relative;
   width: 120px;
 }
- 
+
 .menu ul li ul{
-  display: none;
-}
+      display: none;
+    } 
  
 .menu ul li:hover ul{
   display: block;
@@ -20,27 +20,25 @@
  
 .menu ul li a{
   text-decoration: none;
-  background: #000000;
+  background: grey;
   display: block;
   color: white;
   font-weight: bold;
   font-family: sans-serif;
   text-align: center;
-  border-left: 1px solid #595959;
   padding: 5px;
 }
  
 .menu ul li ul li a{
-  background: #595959;
+  background: grey;
   text-align: left;
   padding: 5px;
-  border-bottom: 1px solid #000000;
   font-size: .8em;
 }
  
 .menu li a:hover{
-  background-color: black;
-  color: purple;
+  background-color: transparent;
+  color: grey;
   transition: .5s;
 }
  
@@ -51,4 +49,13 @@
 }
 .name{
   text-align: right;
+  color: grey;
+}
+.chrome{
+  width: 40px;
+  height: 40px;
+}
+.cs{
+  text-align: center;
+  color: grey;
 }
